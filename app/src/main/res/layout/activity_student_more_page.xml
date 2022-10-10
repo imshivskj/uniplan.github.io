@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_More_page"
+    android:orientation="vertical"
+    android:background="#212121"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="55dp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginStart="33dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Fees"
+                android:textColor="@color/white"
+
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/B"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginStart="33dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Result"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/Add_student_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginStart="33dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/montserrat_bold"
+                android:gravity="center"
+                android:text="Datesheet"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+
+                />
+
+            <Button
+                android:id="@+id/show_student"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="25sp"
+                android:layout_marginEnd="33dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Timetable"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+
+                />
+
+            <Button
+                android:id="@+id/Contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginStart="33dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Contact"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+
+                />
+
+            <Button
+                android:id="@+id/About"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginStart="33dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="About"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

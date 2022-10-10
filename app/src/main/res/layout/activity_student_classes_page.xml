@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_Classes_page"
+    android:orientation="vertical"
+    android:background="#212121"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Semester_Branch_name"
+                android:layout_width="397dp"
+                android:layout_height="132dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+
+                android:fontFamily="@font/montserrat_bold"
+                android:gravity="center"
+                android:text="@string/Cse_5th_sem"
+                android:textColor="#85c3cf"
+                android:textStyle="bold"
+
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/flat"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginStart="33dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/montserrat_regular"
+                android:text="@string/FLAT"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+
+
+                />
+
+            <Button
+                android:id="@+id/oops"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:text="@string/OOPS"
+                android:fontFamily="@font/montserrat_regular"
+                android:layout_marginEnd="33dp"
+                android:layout_marginStart="33dp"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button"
+                android:layout_marginTop="25dp"
+
+                />
+
+            <Button
+                android:id="@+id/oops_lab"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:text="@string/Oops_Lab"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginStart="33dp"
+                android:background="@drawable/button"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat_regular"
+
+                />
+
+            <Button
+                android:id="@+id/dbms"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:text="@string/DBMS"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginStart="33dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button"
+                />
+
+            <Button
+                android:id="@+id/dbms_lab"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:text="@string/DBMS_Lab"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_regular"
+                android:layout_marginEnd="33dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button"
+
+                />
+
+            <Button
+                android:id="@+id/se"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:text="@string/SE"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat_regular"
+                android:layout_marginEnd="33dp"
+                android:layout_marginStart="33dp"
+                android:background="@drawable/button"
+
+                />
+
+            <Button
+                android:id="@+id/se_lab"
+                android:layout_width="match_parent"
+                android:layout_height="74dp"
+                android:text="@string/SE_Lab"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_regular"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginStart="33dp"
+                android:background="@drawable/button"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

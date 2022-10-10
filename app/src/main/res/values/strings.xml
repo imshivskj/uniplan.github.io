@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Gateway_Education_App</string>
+    <string name="login_as">LOGIN AS</string>
+    <string name="as_teacher">FACULTY</string>
+    <string name="as_student">STUDENT</string>
+    <string name="logo">Logo</string>
+    <string name="sticker">sticker</string>
+    <string name="enter_name">Enter name:-</string>
+    <string name="name">R.Id/Email
+    </string>
+
+    <string name="no_of_attempt_remaining_5">No of attempt remaining:- 5</string>
+    <string name="enter_password">Password
+
+
+    </string>
+    <string name="Teacher_details">
+        Admin\n
+        Rank\n
+        class assign\n
+    </string>
+    <string name="DBMS">Data Base Management System</string>
+    <string name="CN">Computer Network</string>
+    <string name="FLAT">Formal Language And Automata Theory</string>
+    <string name="PL">Programming Language</string>
+    <string name="SE">Software Engineering</string>
+    <string name="OOPS">Object Oriented Programming</string>
+    <string name="Oops_Lab">Object Oriented Programming Lab</string>
+    <string name="DBMS_Lab">Data Base Management System Lab</string>
+    <string name="SE_Lab">Software Engineering Lab</string>
+    <string name="Teacher_id">Admin ID</string>]\
+
+
+    <string name="Admin_Info">
+
+        ADMIN\n
+        19010001007\n
+        B.TECH CSE 5th SEM\n
+
+    </string>
+    <string name="Cse_5th_sem">
+        B.Tech \n
+        Computer Science &amp; Engineering \n
+        5th Semester \n
+    </string>
+    <string name="Enter_Student_Details">Enter Student Details</string>
+    <string name="Student_Roll_no">Enter Roll no.</string>
+    <string name="Student_name">Enter Student Name</string>
+    <string name="Student_Fathers_name">Enter Father\'s Name</string>
+    <string name="Student_Mothers_name">Enter Mother\'s Name</string>
+    <string name="Student_Phone_no">Enter Phone no.</string>
+    <string name="Student_Email_Id">Enter Email Id</string>
+    <string name="Student_password">Enter Password</string>
+</resources>

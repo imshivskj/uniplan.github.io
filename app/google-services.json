@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "766964523252",
+    "firebase_url": "https://gateway-education-app-default-rtdb.firebaseio.com",
+    "project_id": "gateway-education-app",
+    "storage_bucket": "gateway-education-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:766964523252:android:dc18cee0c2a51963113ea1",
+        "android_client_info": {
+          "package_name": "com.example.gateway_education_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "766964523252-gkj2l79gvjbjtclgjnrao84u5imhlpml.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcMqBjMIBFd3KyqvNLieK4us8rxX9owDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "766964523252-gkj2l79gvjbjtclgjnrao84u5imhlpml.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

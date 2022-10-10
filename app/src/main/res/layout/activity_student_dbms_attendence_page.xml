@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_DBMS_Attendence_page"
+    android:background="#212121"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/student_details_view"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="@string/DBMS"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#85c3cf"
+
+        />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TableRow android:background="#F55C29" android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Date" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="Attendence" />
+        </TableRow>
+        <TableRow android:background="#cbe6eb" android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="14 Mar, 2022" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="PRESENT" />
+        </TableRow>
+        <TableRow android:background="#84c4d0" android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="15 Mar, 2022" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="PRESENT" />
+
+        </TableRow>
+        <TableRow android:background="#cbe6eb" android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="16 Mar, 2022" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="#ff0015"
+                android:text="ABSENT" />
+
+        </TableRow>
+
+        <TableRow android:background="#84c4d0" android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="18 Mar, 2022" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="PRESENT" />
+
+        </TableRow>
+
+        <TableRow android:background="#cbe6eb" android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="19 Mar, 2022" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#ff0015"
+                android:gravity="right"
+                android:text="ABSENT" />
+
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

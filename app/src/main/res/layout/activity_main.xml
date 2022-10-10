@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#171717"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="@string/logo"
+        app:srcCompat="@drawable/logo" />
+    
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="208dp"
+        android:layout_height="175dp"
+        android:layout_gravity="center"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="@string/sticker"
+
+        app:srcCompat="@drawable/login_4" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="33dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="@string/login_as"
+
+        android:textColor="#0059b3"
+        android:textSize="25sp"
+
+
+        />
+
+    <Button
+        android:id="@+id/faculty_button"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="33dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/as_teacher"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/student_button"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="33dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/as_student"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+
+</LinearLayout>

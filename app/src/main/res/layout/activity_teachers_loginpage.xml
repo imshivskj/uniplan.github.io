@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Teachers_loginpage"
+    android:background="#212121"
+    >
+
+    <EditText
+        android:id="@+id/student_login_id"
+        android:layout_width="335dp"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_regular"
+        android:hint="@string/Teacher_id"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:textColor="#85C3CF"
+        android:textColorHint="#85C3CF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.384"
+
+        />
+
+    <EditText
+        android:id="@+id/student_password"
+        android:layout_width="335dp"
+        android:layout_height="74dp"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_regular"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:minHeight="40dp"
+        android:textColor="#85C3CF"
+        android:textColorHighlight="#85C3CF"
+        android:textColorHint="#85C3CF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/student_login_id"
+        app:layout_constraintVertical_bias="0.066" />
+
+    <Button
+        android:id="@+id/student_login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/student_password"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <TextView
+        android:id="@+id/teacher_forgot_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserrat_regular"
+        android:text="Forgot Password"
+        android:textColor="#85C3CF"
+        android:textColorHint="#85C3CF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/student_login_button" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="383dp"
+        android:layout_height="143dp"
+        app:layout_constraintBottom_toTopOf="@+id/student_login_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="www.gateway.edu.in"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="#85C3CF"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_forgot_button"
+        app:layout_constraintVertical_bias="0.718" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

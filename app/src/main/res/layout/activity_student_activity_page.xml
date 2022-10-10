@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student_activity_page"
+    android:orientation="vertical"
+    android:background="#171717"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck,UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/student_image"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:cropToPadding="true"
+                android:src="@drawable/dp_student">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:gravity="center"
+                android:paddingTop="20dp"
+                android:text="@string/Admin_Info"
+                android:textColor="#85c3cf"
+                android:textSize="25sp"
+
+                >
+
+            </TextView>
+
+            <Button
+                android:id="@+id/Attendence"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:layout_marginLeft="33dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="33dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="Attendence"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </Button>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Attendence">
+
+                <Button
+                    android:id="@+id/Classes"
+                    android:layout_width="148dp"
+                    android:layout_height="53dp"
+
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="25dp"
+
+                    android:layout_marginRight="-20dp"
+                    android:background="@drawable/button"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center"
+                    android:text="Classes"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toTopOf="@+id/Exams"
+                    app:layout_constraintEnd_toStartOf="@+id/Notes"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/Notes"
+                    android:layout_width="133dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_marginRight="33dp"
+                    android:background="@drawable/button"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Notes"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/Classes"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <Button
+                    android:id="@+id/Exams"
+                    android:layout_width="150dp"
+                    android:layout_height="54dp"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="25dp"
+
+                    android:layout_marginRight="-20dp"
+                    android:background="@drawable/button"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Exams"
+                    android:textColor="@color/white"
+
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/Events"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/Classes"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <Button
+                    android:id="@+id/Events"
+                    android:layout_width="133dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="33dp"
+                    android:background="@drawable/button"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="Events"
+                    android:textColor="@color/white"
+
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/Exams"
+                    app:layout_constraintTop_toBottomOf="@+id/Notes"
+                    app:layout_constraintVertical_bias="0.0" />
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <Button
+                android:id="@+id/More"
+                android:layout_width="wrap_content"
+                android:layout_height="54dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="33dp"
+                android:background="@drawable/button"
+                android:fontFamily="@font/montserrat_bold"
+                android:gravity="center"
+                android:text="More"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
